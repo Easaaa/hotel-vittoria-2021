@@ -14,14 +14,14 @@ export default function IndexPage() {
     title: t.seo.homepage,
   };
 
-  const { title, subTitle, text, cta } = t.header.san_lorenzo;
+  const { title, subTitle, text, cta } = t.header.hotel_vittoria;
   const headerText = { title, subTitle, text, cta };
 
   return (
     <>
       <Seo {...seoAttributes} />
       <Header
-        background='/assets/home/mountain.jpg'
+        background='/assets/home/swimming-pool.png'
         {...headerText}
         img_text={t.header.welcome}
       />

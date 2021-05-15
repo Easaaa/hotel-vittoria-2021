@@ -8,7 +8,7 @@ import Footer from '@/components/organism/Footer';
 export default function Agriturismo() {
   const { t } = useLocale();
 
-  const { title, subTitle, text, cta, facility, terrace } = t.lodge;
+  const { title, subTitle, text, cta, facility, breakfast } = t.lodge;
   const headerText = { title, subTitle, text };
 
   const seoAttributes = {
@@ -26,7 +26,7 @@ export default function Agriturismo() {
       {/*  <ImgMosaic /> */}
       {/*  <ImgCentral bgImage={MountainImg} bgSmoke /> */}
       <ColumnSection data={facility} inverted bgSmoke />
-      <ColumnSection data={terrace} bgSmoke />
+      <ColumnSection data={breakfast} bgSmoke />
       <Contact t={t} simplified />
       <Footer t={t} />
     </>

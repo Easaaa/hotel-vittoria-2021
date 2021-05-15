@@ -33,7 +33,7 @@ export default function ImgCentral({
               <div className='relative w-full'>
                 <IoPlayCircle className='absolute z-10 mr-2 text-5xl text-white transition transform top-4 left-4 sm:top-10 sm:text-8xl sm:left-10 group-hover:scale-125' />
                 <Image
-                  className={`w-full object-cover object-center rounded-lg hover:shadow-md`}
+                  className={`w-full object-cover object-center hover:shadow-md`}
                   alt='hero'
                   src={image}
                   width={1225}

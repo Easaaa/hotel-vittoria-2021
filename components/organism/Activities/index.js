@@ -12,7 +12,7 @@ export default function Activities({ t }) {
     <section className='flex flex-wrap max-w-screen-lg px-5 py-10 mx-auto text-gray-600 place-content-center md:py-28'>
       <div className='flex flex-col w-full mb-20 text-center'>
         <h2 className='title_section'>
-          <span className='block text-gray-700'>{title}</span>
+          <span className='block'>{title}</span>
         </h2>
         <p className='mx-auto text-base leading-relaxed lg:w-2/3 max-w-prose'>
           {desc}

@@ -38,7 +38,7 @@ export default function Menu({
     (router.pathname !== _menu && simplified && 'navLink_notActive_simpl');
 
   const simplifiedTextColor =
-    (router.pathname === '/appartamenti' && 'lg:text-black') || 'lg:text-white';
+    (router.pathname === '/rooms' && 'lg:text-black') || 'lg:text-white';
 
   const textColor = (simplified && 'text-gray-800') || 'text-white';
 
@@ -61,16 +61,15 @@ export default function Menu({
         simplified && 'p-6 lg:p-0 lg:py-6'
       }`}>
       <div className='z-20 grid md:grid-cols-2 md:place-content-center'>
-        <img
+        {/*  <img
           src={'/black-logo.png'}
           className={`object-container object-center w-20 place-self-center`}
           alt='hero'
           src='/black-logo.png'
           priority
-        />
-        <h1 className='hidden font-serif text-3xl font-medium tracking-wider md:flex md:flex-col min-w-[200px] md:place-content-center'>
-          San Lorenzo{' '}
-          <span className='block text-lg font-light'>di Persegno</span>
+        /> */}
+        <h1 className='logo relative hidden font-serif text-3xl font-medium tracking-wider md:flex md:flex-col min-w-[200px] md:place-content-center'>
+          Hotel Vittoria
         </h1>
       </div>
 
@@ -87,7 +86,7 @@ export default function Menu({
           speed={3}
           strokeColor='white'
           className={`transform transition ${
-            (isMenuOpen && 'rounded-full bg-green-700') || 'rounded-md'
+            (isMenuOpen && 'rounded-full bg-gray-900') || 'rounded-md'
           } ${(isMenuOpen || simplified) && 'bg-green-900 fill-current '}`}
         />
       </div>
@@ -105,13 +104,13 @@ export default function Menu({
             <a>{home}</a>
           </Link>
         </li>
-        <li className={`navLink ${isMenuActive(`/agriturismo`)}`}>
-          <Link href={`/${locale}/agriturismo`}>
+        <li className={`navLink ${isMenuActive(`/hotel`)}`}>
+          <Link href={`/${locale}/hotel`}>
             <a>{lodge}</a>
           </Link>
         </li>
-        <li className={`navLink ${isMenuActive('/appartamenti')}`}>
-          <Link href={`/${locale}/appartamenti`}>
+        <li className={`navLink ${isMenuActive('/rooms')}`}>
+          <Link href={`/${locale}/rooms`}>
             <a>{apartments}</a>
           </Link>
         </li>

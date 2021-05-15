@@ -11,7 +11,7 @@ export default function Footer({
   return (
     <footer className='relative z-50 flex flex-col justify-end w-full py-10 text-gray-800 bg-bottom bg-gray-50 max-h-800'>
       <div className='z-50 flex justify-center w-full pb-4 md:pb-10'>
-        <Image
+        {/*  <Image
           src={'/black-logo.png'}
           className={`object-container object-center`}
           alt='hero'
@@ -19,7 +19,7 @@ export default function Footer({
           width={120}
           height={80}
           lazy
-        />
+        /> */}
       </div>
 
       <ul className='z-50 grid max-w-screen-sm gap-3 pb-16 mx-auto text-center place-content-center md:grid-cols-4'>
@@ -62,15 +62,15 @@ export default function Footer({
           </a>
         </span>
         <p className='leading-normal text-gray-800'>
-          Via Camerate 39
+          Via Benamati 114
           <br />
           Toscolano Maderno (BS) - 25088
         </p>
         <div className='grid gap-2 mt-6 mb-8 text-gray-800 underline'>
           <a href='mailto:info@sanlorenzodipersegno.it'>
-            info@sanlorenzodipersegno.it
+            info@vittoriahotel.eu
           </a>
-          <a href='tel:00393293103384'>Tel. +39 329 310 3384</a>
+          <a href='tel:00393293103384'>Tel. +39 0365 64 1320</a>
         </div>
 
         <a

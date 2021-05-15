@@ -27,6 +27,7 @@
     "react-flagpack": "^0.1.1",
     "react-hook-form": "^7.0.1",
     "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.0.9",
     "react-useanimations": "^2.0.6",
     "reactjs-popup": "^2.0.4",
     "styled-components": "^5.2.3",
