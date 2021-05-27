@@ -10,7 +10,7 @@ export default function Room({
     <section
       onClick={() =>
         router
-          .push({ pathname: '/appartamenti', query: { room: name } })
+          .push({ pathname: '/rooms', query: { room: name } })
           .then(() => window.scrollTo(0, 0))
       }
       class='lg:py-12 lg:flex lg:justify-center rounded-2xl cursor-pointer transition transform hover:scale-105 group'>

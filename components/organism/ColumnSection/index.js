@@ -27,11 +27,11 @@ export default function ColumnSection({
             inverted && 'md:order-last'
           }`}>
           <Image
-            className='object-cover object-center rounded-lg'
+            className='object-cover object-center'
             /*             alt={img.alt} */
             src={img}
             width={875}
-            height={675}
+            height={575}
             lazy
           />
         </div>

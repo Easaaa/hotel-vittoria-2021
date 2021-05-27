@@ -12,7 +12,7 @@ import Seo from '@/components/Layout/Seo';
 
 import ImageGallery from 'react-image-gallery';
 
-export default function Rooms({ roomFrom }) {
+export default function Rooms({ roomFrom, imagesArray }) {
   const { t, locale } = useLocale();
   const [room, setRoom] = useState('lake-view');
   const filteredRoom = t.rooms.rooms.filter(
@@ -35,28 +35,13 @@ export default function Rooms({ roomFrom }) {
 
   if (isLoading) return <div>....</div>;
 
-  const images = [
-    {
-      original: 'https://picsum.photos/id/1018/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    },
-    {
-      original: 'https://picsum.photos/id/1015/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    },
-    {
-      original: 'https://picsum.photos/id/1019/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    },
-  ];
-
   return (
     <>
       <Seo {...seoAttributes} />
       <Header simplified />
       {/*  <Title title={roomFrom} t={t} locale={locale} margin='mt-10' /> */}
       <ImgCentral
-        image='/bed-room-header.png'
+        image={filteredRoom?.img}
         textImage={textImage}
         videoUrl={filteredRoom?.videoUrl}
         priorityImg
@@ -73,10 +58,11 @@ export default function Rooms({ roomFrom }) {
       </div>
       <div className='mx-auto mb-6 sm:mb-20 sm:w-2/3'>
         <ImageGallery
-          items={images}
+          items={imagesArray}
           lazyLoad={true}
           showPlayButton={false}
           showIndex={true}
+          showThumbnails={false}
         />
       </div>
 
@@ -89,7 +75,22 @@ export default function Rooms({ roomFrom }) {
   );
 }
 
-Rooms.getInitialProps = async ({ query }) => {
-  const { room } = query;
-  return { roomFrom: room || 'lake-view' };
-};
+export async function getServerSideProps({ query }) {
+  const queryRoom = (await query.room) || 'lake-view';
+  const folder = await `/assets/rooms/${queryRoom}/`;
+
+  const numPhoto =
+    (queryRoom === 'lake-view' && 51) ||
+    (queryRoom === 'garden-view' && 17) ||
+    (queryRoom === 'mountain-view' && 51);
+  var imagesArray = [];
+
+  for (let i = 1; i <= numPhoto; i++) {
+    imagesArray.push({
+      original: `/assets/rooms/${queryRoom}/` + i + '.jpg',
+      thumbnail: `/assets/rooms/${queryRoom}/` + i + '.jpg',
+    });
+  }
+
+  return { props: { roomFrom: queryRoom, imagesArray } };
+}

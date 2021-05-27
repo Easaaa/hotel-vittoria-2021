@@ -53,7 +53,7 @@ export default {
         price: '50',
         guest: 'From 65 € per day',
         viewMore: 'View more',
-        img: '/assets/lake-view-jpg',
+        img: '/assets/lake-view.png',
         videoUrl: 'https://www.youtube.com/embed/FCwlLM-Jqic',
         alt: 'An internal view of serenity apartment, with a wood table and a big window.',
         othersImages: [
@@ -87,7 +87,7 @@ export default {
         ],
       },
       {
-        name: 'internal-view',
+        name: 'mountain-view',
         price: '60',
         guest: 'From 50 € per day',
         viewMore: 'View more',
@@ -184,13 +184,13 @@ export default {
     subTitle: 'with special care for details.',
     text: '',
     facility: {
-      img: '/assets/agriturismo/agriturismo-outside.jpg',
+      img: '/assets/hotel/facility.jpg',
       title: 'The facilities',
       text: 'The hotel disposes of a private swimming pool for our guests, with two different depths: the first is 1.50 m deep, suitable for adults, and the second is 1 m deep, suitable for children. In the garden you can find sun umbrellas, lawn chairs and tables where you can comfortably eat lunch/dinner in the open air.',
     },
 
     breakfast: {
-      img: '/assets/agriturismo/agriturismo-outside.jpg',
+      img: '/assets/hotel/terrace.jpg',
       title: 'Breakfast',
       text: 'Breakfast is served between 08:00 and 10:00. You will find a rich smorgasbord, salty and sweet, with delicious homemade cakes. You can also eat outside in our paradisiac terrace.',
     },

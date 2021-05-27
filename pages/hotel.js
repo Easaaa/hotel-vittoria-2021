@@ -18,10 +18,7 @@ export default function Agriturismo() {
   return (
     <>
       <Seo {...seoAttributes} />
-      <Header
-        background='/assets/agriturismo/agriturismo-three.jpg'
-        {...headerText}
-      />
+      <Header background='/assets/hotel/swimming-garden.jpg' {...headerText} />
 
       {/*  <ImgMosaic /> */}
       {/*  <ImgCentral bgImage={MountainImg} bgSmoke /> */}

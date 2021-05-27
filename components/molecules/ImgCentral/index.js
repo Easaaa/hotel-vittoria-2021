@@ -27,7 +27,16 @@ export default function ImgCentral({
           </>
         )}
 
-        <Popup
+        <Image
+          className={`w-full object-cover object-center hover:shadow-md`}
+          alt='hero'
+          src={image}
+          width={1225}
+          height={575}
+          priority={priorityImg}
+        />
+
+        {/*  <Popup
           trigger={
             <button className='focus:outline-none group'>
               <div className='relative w-full'>
@@ -56,7 +65,7 @@ export default function ImgCentral({
               allowFullScreen
             />
           </div>
-        </Popup>
+        </Popup> */}
 
         {cta && (
           <div className='w-full pt-8 text-center lg:w-2/3'>

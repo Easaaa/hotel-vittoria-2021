@@ -24,9 +24,9 @@ export default function RoomsPreview({ locale, room }) {
             if (el.name === room) return;
             return (
               <div
-                className='w-full p-4 transition transform cursor-pointer lg:w-1/3 group hover:scale-105 active:scale-105'
+                className='w-full p-4 transition transform cursor-pointer lg:w-1/2 group hover:scale-105 active:scale-105'
                 onClick={async () => {
-                  await router.replace('/appartamenti' + '/?room=' + el.name);
+                  await router.replace('/rooms' + '/?room=' + el.name);
                   await window.scrollTo(0, 0);
                 }}>
                 <div className='relative flex flex-col content-center px-8 bg-gray-50 h-2/3 group-hover:bg-gray-100'>
@@ -34,8 +34,8 @@ export default function RoomsPreview({ locale, room }) {
                     <div className='inline-flex items-center justify-center flex-shrink-0 mr-3'>
                       <Image
                         src={el.othersImages[0].url}
-                        className='object-cover shadow-md w-44 h-44'
-                        width={140}
+                        className='object-cover w-64 shadow-md h-44'
+                        width={280}
                         height={140}
                         lazy
                       />
