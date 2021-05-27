@@ -22,7 +22,7 @@ export default function Room({
               alt={othersImages[0].alt}
               objectFit='cover'
               src={othersImages[0].url}
-              width={600}
+              width={1200}
               height={400}
               lazy
             />
@@ -31,7 +31,7 @@ export default function Room({
 
         <div class='max-w-xl px-6 py-2 lg:max-w-5xl flex place-content-between place-items-center'>
           <h2 class='text-2xl font-bold font-serif text-como-700 dark:text-white md:text-3xl capitalize'>
-            {name}
+            {name.replace('-', ' ')}
             <span class='text-xl text-gray-600 grid font-normal'>{guest}</span>
           </h2>
 

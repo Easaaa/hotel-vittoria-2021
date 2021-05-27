@@ -89,6 +89,14 @@
 .logo::after {
   content: '★★★';
   position: absolute;
-  bottom: -2rem;
-  font-size: 1.2rem;
+  bottom: -1.3rem;
+  left: 0;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 640px) {
+  .logo::after {
+    bottom: -2rem;
+    font-size: 1.2rem;
+  }
 }

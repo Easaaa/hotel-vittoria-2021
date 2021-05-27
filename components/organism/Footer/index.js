@@ -48,14 +48,14 @@ export default function Footer({
       <div className='z-50 grid font-light text-center place-content-center'>
         <span className='flex justify-center pb-16'>
           <a
-            href='https://www.facebook.com/AgriturismoSanLorenzoDiPersegno'
+            href='https://www.facebook.com/H.Vittoria'
             target='_blank'
             className='text-gray-800 transition transform hover:scale-110'>
             <SiFacebook className='text-2xl' />
           </a>
 
           <a
-            href='https://www.instagram.com/sanlorenzo.dipersegno/'
+            href='https://www.instagram.com/hotelvittoria.lagodigarda/'
             target='_blank'
             className='ml-4 text-gray-800 transition transform hover:scale-110'>
             <SiInstagram className='text-2xl' />

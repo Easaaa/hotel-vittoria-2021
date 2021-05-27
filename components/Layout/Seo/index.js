@@ -2,9 +2,9 @@ import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-const website_title = 'Agriturismo San Lorenzo';
+const website_title = 'Hotel Vittoria';
 const website_description =
-  'Benvenuti in Persegno località immersa nella natura del parco Alto Garda Bresciano, ai piedi del Monte Pizzocolo. Offriamo stupendi appartamenti completamente accessoriati.';
+  "L’Hotel Vittoria si trova nel cuore del borgo di Maderno. Offriamo pernottamente con colazione continentale, con torte fatte in casa 🍰, parcheggio interno e una splendida piscina.🏖️ A soli 5 minuti dal Lago di Garda, potrete giore della tranquillità ma allo stesso tempo della posizione centrica dell' Hotel.";
 
 export default function Seo({ description, title, keywords }) {
   const router = useRouter();

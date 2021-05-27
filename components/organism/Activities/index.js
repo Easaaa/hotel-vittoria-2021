@@ -33,7 +33,7 @@ export default function Activities({ t }) {
           <Image
             lazy
             alt='A white mountain after snowing and a black dog'
-            className='block object-cover object-center w-full h-full rounded'
+            className='block object-cover object-center w-full h-full'
             src='/assets/activities/cane.png'
             width={475}
             height={475}
@@ -43,7 +43,7 @@ export default function Activities({ t }) {
           <Image
             lazy
             alt='the river inside valle camerate valley, near agriturismo'
-            className='block object-cover object-center w-full h-full rounded'
+            className='block object-cover object-center w-full h-full'
             src='/assets/activities/river.jpg'
             width={475}
             height={475}
@@ -53,7 +53,7 @@ export default function Activities({ t }) {
           <Image
             lazy
             alt='The monte pizzoccolo from the Salo village'
-            className='block object-cover object-center w-full h-full rounded'
+            className='block object-cover object-center w-full h-full'
             src='/assets/activities/pizzoccolo-verticale.jpg'
             width={775}
             height={1225}
@@ -65,7 +65,7 @@ export default function Activities({ t }) {
           <Image
             lazy
             alt='gallery'
-            className='block object-cover object-center w-full h-full rounded'
+            className='block object-cover object-center w-full h-full'
             src='/assets/activities/pizzoccolo2.png'
             width={875}
             height={675}
@@ -75,7 +75,7 @@ export default function Activities({ t }) {
           <Image
             lazy
             alt='A lemon plant in Limone del Garda'
-            className='block object-cover object-center w-full h-full rounded'
+            className='block object-cover object-center w-full h-full'
             src='/assets/activities/limoni.jpg'
             width={475}
             height={475}
@@ -85,7 +85,7 @@ export default function Activities({ t }) {
           <Image
             lazy
             alt='A selection of mountain cheese on a table'
-            className='block object-cover object-center w-full h-full rounded'
+            className='block object-cover object-center w-full h-full'
             src='/assets/activities/spritz.jpg'
             width={475}
             height={475}
@@ -95,7 +95,7 @@ export default function Activities({ t }) {
           <Image
             lazy
             alt='The Toscolano Maderno square with a view of the so called "golfo", a porto with a lot of boats.'
-            className='block object-cover object-center w-full h-full rounded'
+            className='block object-cover object-center w-full h-full'
             src='/assets/activities/lido.jpg'
             width={775}
             height={595}

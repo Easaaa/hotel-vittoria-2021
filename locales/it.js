@@ -1,6 +1,6 @@
 /* ==== ACTIVITIES ==== */
 import Pizzoccolo2Img from '../assets/activities/pizzoccolo2.png';
-import Agri from '../public/assets/home/mountain.png';
+import HotelFromPool from '../public/assets/home/hotel-1.jpg';
 import PizzoccoloImg from '../public/assets/activities/pizzoccolo-verticale.jpg';
 
 /* ==== ICONS ===== */
@@ -18,47 +18,46 @@ import MountainIcon from '../assets/icons/mountain.png';
 
 export default {
   seo: {
-    homepage: 'Home',
-    apartments: 'Appartamenti',
-    lodge: "L'Agriturismo",
-    activities: 'Attività',
+    homepage: 'Homepage',
+    apartments: 'Rooms',
+    lodge: 'The Hotel',
+    activities: 'Activities',
   },
   navbar: {
     home: 'Home',
-    lodge: "L'Agriturismo",
-    apartments: 'Appartamenti',
-    activities: 'Attività',
-    contact: 'Contatti',
+    lodge: 'The Hotel',
+    apartments: 'Rooms',
+    activities: 'Activities',
+    contact: 'Contact',
   },
   header: {
-    welcome: 'benvenuti',
+    welcome: 'welcome',
     hotel_vittoria: {
-      title: `Un paradiso nascosto`,
-      subTitle: 'dietro la montagna',
-      text: "Benvenuti in Persegno località immersa nella natura del parco Alto Garda Bresciano, ai piedi del Monte Pizzocolo. L'agriturismo San Lorenzo offre vari appartamenti in una bella zona di montagna.",
-      cta: 'Scopri di più',
+      title: `A fantastic stay`,
+      subTitle: 'for you.',
+      text: 'We are an happy family that has been working here for generations.',
+      cta: 'Learn More',
       img: {
-        url: Agri,
-        alt: 'Una vista del lago di garda dal monte pizzoccolo',
+        url: HotelFromPool,
+        alt: 'Agriturismo san lorenzo viewed from outside, on a mountain view.',
       },
     },
   },
 
   rooms: {
-    title: 'Gli Appartamenti',
-    desc: "All'interno di 14 ettari di terreno, la struttura fa parte di una vecchia formaggiaia risalente al 1800, le stanze possono accogliere fino a quattro ospiti ciascuna in un' atmosfera calda e raccolta, dallo charme caratteristico e confortevole.",
-
+    title: 'Rooms & Views',
+    desc: 'The Hotel Vittoria is located in the heart of Maderno village. Our facility is comfortable and quiet: it is situated in a residential area surrounded by olive trees, it disposes of large and bright spaces in a warm and welcoming atmosphere.',
     rooms: [
       {
-        name: 'serenity',
+        name: 'lake-view',
         price: '50',
-        guest: '2 ospiti',
-        viewMore: 'Scopri di più',
-        img: '/assets/rooms/thumbnail/serenity.jpg',
+        guest: 'From 65 € per day',
+        viewMore: 'View more',
+        img: '/assets/lake-view-jpg',
         videoUrl: 'https://www.youtube.com/embed/FCwlLM-Jqic',
         alt: 'An internal view of serenity apartment, with a wood table and a big window.',
         othersImages: [
-          { url: '/assets/rooms/serenity/1.jpeg', alt: '' },
+          { url: '/assets/lake-view.jpg', alt: '' },
           { url: '/assets/rooms/serenity/2.jpeg', alt: '' },
           { url: '/assets/rooms/serenity/3.jpeg', alt: '' },
           { url: '/assets/rooms/serenity/4.jpeg', alt: '' },
@@ -69,15 +68,15 @@ export default {
         ],
       },
       {
-        name: 'armony',
+        name: 'garden-view',
         price: '70',
-        guest: '4 ospiti',
-        viewMore: 'Scopri di più',
-        img: '/assets/rooms/thumbnail/armony.jpg',
+        guest: 'From 55 € per day',
+        viewMore: 'View more',
+        img: '/assets/garden-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/lG8iiNx6A2g',
         alt: 'An internal view of Armony apartment, with a wood table and a big window.',
         othersImages: [
-          { url: '/assets/rooms/armony/1.jpeg', alt: '' },
+          { url: '/assets/garden-view.jpg', alt: '' },
           { url: '/assets/rooms/armony/2.jpeg', alt: '' },
           { url: '/assets/rooms/armony/3.jpeg', alt: '' },
           { url: '/assets/rooms/armony/4.jpeg', alt: '' },
@@ -88,15 +87,15 @@ export default {
         ],
       },
       {
-        name: 'joy',
+        name: 'internal-view',
         price: '60',
-        guest: '4 ospiti',
-        viewMore: 'Scopri di più',
-        img: '/assets/rooms/thumbnail/joy.jpg',
+        guest: 'From 50 € per day',
+        viewMore: 'View more',
+        img: '/assets/internal-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/Efg7OlrCklY',
         alt: 'An internal view of Joy apartment, with a wood table and a big window.',
         othersImages: [
-          { url: '/assets/rooms/joy/1.jpeg', alt: '' },
+          { url: '/assets/internal-view.jpg', alt: '' },
           { url: '/assets/rooms/joy/2.jpeg', alt: '' },
           { url: '/assets/rooms/joy/3.jpeg', alt: '' },
           { url: '/assets/rooms/joy/4.jpeg', alt: '' },
@@ -107,63 +106,38 @@ export default {
           { url: '/assets/rooms/joy/9.jpeg', alt: '' },
         ],
       },
-      {
-        name: 'silence',
-        price: '75',
-        guest: '4 ospiti',
-        viewMore: 'Scopri di più',
-        img: '/assets/rooms/thumbnail/silence.jpg',
-        videoUrl: 'https://www.youtube.com/embed/BY4r-m_67oU',
-        alt: 'An internal view of Silence apartment, with a wood table and a big window.',
-        othersImages: [
-          { url: '/assets/rooms/silence/1.jpeg', alt: '' },
-          { url: '/assets/rooms/silence/2.jpeg', alt: '' },
-          { url: '/assets/rooms/silence/3.jpeg', alt: '' },
-          { url: '/assets/rooms/silence/4.jpeg', alt: '' },
-          { url: '/assets/rooms/silence/5.jpeg', alt: '' },
-          { url: '/assets/rooms/silence/6.jpeg', alt: '' },
-          { url: '/assets/rooms/silence/7.jpeg', alt: '' },
-          { url: '/assets/rooms/silence/8.jpeg', alt: '' },
-        ],
-      },
     ],
     viewOtherRooms: {
-      title: 'Vedi gli altri Appartamenti',
-      /* text:
-        "Gli appartamenti sono spaziosi e ben arredati, forniti di ogni utensile necessario. Cliccate sull'immagine in alto per poter vedere un video tour dell'appartamento.", */
+      title: 'View other Rooms',
+      /*  text:
+        'The apartments are comfortable and charmingly furnished, with any tool that you may need during your journey.', */
     },
     infoRooms: {
       features: [
-        { name: 'Cucina', icon: <MdKitchen className='text-2xl' /> },
-        { name: 'Parcheggio', icon: <FaParking className='text-2xl' /> },
-        { name: 'Free Internet', icon: <WifiIcon className='text-2xl' /> },
-        { name: 'Benvenuti Animali', icon: <DogIcon className='text-2xl' /> },
+        { name: 'Mini Fridge', icon: <MdKitchen className='text-2xl' /> },
+        { name: 'Parking', icon: <FaParking className='text-2xl' /> },
+        { name: 'Free Wi-Fi', icon: <WifiIcon className='text-2xl' /> },
+        { name: 'Animal Friendly', icon: <DogIcon className='text-2xl' /> },
       ],
       bulletList: {
-        title: 'Descrizione',
+        title: 'Description',
         list: [
-          'Gli appartamenti sono open space, con tre stanze totali: soggiorno/cucina (completamente accessoriata), bagno e camera da letto.',
-          'In ogni alloggio troverete un letto matrimoniale, un divano letto nel soggiorno e/o nella stanza e un bagno privato con doccia.',
-          'La zona soggiorno è arredata con tavolo, sedie e divano. Inoltre potrete gioire anche del riscaldamento a legna nel caso di bisogno.',
+          'They have a direct access to the shared terrace provided with tables and chairs to sit and enjoy the view during the day and the meals.',
         ],
       },
       additionalInfo: {
-        title: "Informazioni all'Arrivo",
+        title: 'Additional Info',
         arrivalDeparture: {
           title: 'Check-in / Check-out',
-          text: 'Il check-in è consentito dalle ore 14.00 alle ore 18.00. Il check-out non oltre le ore 11.00.',
-        },
-        towels: {
-          title: 'Lenzuola e Asciugamani',
-          text: 'Le lenzuola e gli asciugamani sono extra, il prezzo è di € 10 per persona per soggiorno.',
+          text: 'The check-in is allowed from 10:00 am to 06:00 pm. The check-out limit is 10:00 am.',
         },
       },
     },
   },
 
   activities: {
-    title: 'Attività',
-    desc: 'Ci sono moltissime attvità da poter fare. Il parco è ricco di attrazioni, con moltissimi percorsi per incredibili passeggiate, giri in bicicletta e arrampicate. La magnifica spiaggia di Toscolano Maderno inoltre si trova a 15 minuti di macchina. ',
+    title: 'Activities',
+    desc: 'There are a lot of activities you can do. The park is full of attractions, with plenty of routes for incredible walking, cycling and climbing. The magnificent beach of Toscolano Maderno is also 15 minutes away by car.',
     cta: 'Learn More',
     activitiesList: [
       { name: 'mountain', icon: MountainIcon },
@@ -173,52 +147,53 @@ export default {
     ],
   },
   contact: {
-    title: 'Prenota Ora',
-    desc: 'Potete scriverci qualsiasi informazione che possa esserci utile al fine di regalarvi la miglior esperienza possibile.',
+    title: 'Book Now',
+    desc: 'At our Lodge, there is a variety of rooms to choose from. Whether you.',
     form: {
       name: {
-        name: 'nome',
-        placeholder: 'Nome completo',
+        name: 'name',
+        placeholder: 'Full Name',
       },
       arrival: {
-        name: 'arrivo',
-        placeholder: 'Seleziona una data di arrivo',
+        name: 'arrival',
+        placeholder: 'Select an arrival date',
       },
       departure: {
-        name: 'partenza',
+        name: 'departure',
         placeholder: 'Select a departure date',
       },
       email: {
         name: 'email',
-        placeholder: 'esempio@gmail.com',
+        placeholder: 'Email',
       },
       message: {
-        name: 'messaggio',
-        placeholder: 'Scrivici un messaggio',
+        name: 'message',
+        placeholder: 'Write your message',
       },
-      is_required: 'Questo campo è obbligatorio',
+      is_required: 'This field is required',
       success_msg:
-        'Email inviata correttamente! Vi risponderemo il prima possibile. Grazie.',
+        'Email submitted correctly! We will reply you as soon as possible. Thanks.',
       error_msg:
-        'Oops, sembra esserci un problema, prova ancora. Altrimenti scrivici direttamente a info@sanlorenzodipersegno.it',
-      button_text: 'invia',
+        'Oops, it seems that there is an error, try again. Otherwise write us directly at info@sanlorenzodipersegno.it',
+      button_text: 'send',
       info: 'Vi consigliamo di impostare nel navigatore località Gaino. C’è la possibilità che il navigatore vi porti a Navazzo, NON dovete assolutamente seguire questa direzione. Una volta arrivati a Toscolano Maderno, proseguite per Gaino, poi entrate nella valle delle Camerate e proseguite per 5 km circa. La strada è una classica strada montana, sterrata e non asfaltata, consigliamo tranquillità e di godervi il percorso perchè una volta giunti in agriturismo la pace ricompenserà ogni sforzo.',
     },
   },
   lodge: {
-    img_text: 'è accogliente',
-    title: `Nel nostro Agriturismo`,
-    subTitle: 'ti sentirai a casa',
-    text: 'Situato a un’altitudine di 400 metri e ubicato a 7 km da Toscolano Maderno e dalle rive del Lago di Garda, l’Agriturismo San Lorenzo propone appartamenti in una tranquilla zona di montagna.',
+    img_text: "It's coazy",
+    title: `Our priority is to meet all of your needs`,
+    subTitle: 'with special care for details.',
+    text: '',
     facility: {
       img: '/assets/agriturismo/agriturismo-outside.jpg',
-      title: 'La Struttura',
-      text: "All'interno di 14 ettari di terreno, la struttura fa parte di una vecchia formaggiaia risalente al 1800, le stanze possono accogliere fino a quattro ospiti ciascuna in un' atmosfera calda e raccolta, dallo charme caratteristico e confortevole.",
+      title: 'The facilities',
+      text: 'The hotel disposes of a private swimming pool for our guests, with two different depths: the first is 1.50 m deep, suitable for adults, and the second is 1 m deep, suitable for children. In the garden you can find sun umbrellas, lawn chairs and tables where you can comfortably eat lunch/dinner in the open air.',
     },
-    terrace: {
-      img: '/assets/agriturismo/terrace.jpg',
-      title: 'La Terrazza',
-      text: "Gli appartamenti sono spaziosi e ben arredati, forniti di ogni utensile necessario. All'esterno troverete una terrazza solarium dove poter godere delle bellissime giornate di sole, mai troppo calde grazie alla brezza caratteristica del parco.",
+
+    breakfast: {
+      img: '/assets/agriturismo/agriturismo-outside.jpg',
+      title: 'Breakfast',
+      text: 'Breakfast is served between 08:00 and 10:00. You will find a rich smorgasbord, salty and sweet, with delicious homemade cakes. You can also eat outside in our paradisiac terrace.',
     },
   },
   activities_page: {
@@ -248,7 +223,7 @@ export default {
         {
           title: 'Not a nice day',
           desc: 'Situato a un’altitudine di 400 metri e ubicato a 7 km da Toscolano Maderno e dalle rive del Lago di Garda, l’Agriturismo San Lorenzo propone appartamenti in una tranquilla zona di montagna.Benvenuti in Persegno località immersa nella natura del parco Alto Garda.',
-          img: Agri,
+          img: HotelFromPool,
           component: 'left',
         },
       ],
@@ -267,7 +242,7 @@ export default {
         {
           title: 'Massage',
           desc: 'Situato a un’altitudine di 400 metri e ubicato a 7 km da Toscolano Maderno e dalle rive del Lago di Garda, l’Agriturismo San Lorenzo propone appartamenti in una tranquilla zona di montagna.Benvenuti in Persegno località immersa nella natura del parco Alto Garda.',
-          img: Agri,
+          img: HotelFromPool,
           component: 'left',
         },
       ],
@@ -286,7 +261,7 @@ export default {
         {
           title: 'Sirmione exclusive beach',
           desc: 'Situato a un’altitudine di 400 metri e ubicato a 7 km da Toscolano Maderno e dalle rive del Lago di Garda, l’Agriturismo San Lorenzo propone appartamenti in una tranquilla zona di montagna.Benvenuti in Persegno località immersa nella natura del parco Alto Garda.',
-          img: Agri,
+          img: HotelFromPool,
           component: 'left',
         },
       ],

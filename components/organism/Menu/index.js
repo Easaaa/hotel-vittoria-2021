@@ -57,10 +57,10 @@ export default function Menu({
 
   return (
     <nav
-      className={`flex justify-between z-50 font-sans max-w-screen-2xl lg:mx-auto ${textColor} ${
-        simplified && 'p-6 lg:p-0 lg:py-6'
+      className={`flex justify-between z-50 font-sans max-w-screen-xl lg:mx-auto ${textColor} ${
+        simplified && 'p-6'
       }`}>
-      <div className='z-20 grid md:grid-cols-2 md:place-content-center'>
+      <div className='z-20 grid place-content-center'>
         {/*  <img
           src={'/black-logo.png'}
           className={`object-container object-center w-20 place-self-center`}
@@ -68,7 +68,7 @@ export default function Menu({
           src='/black-logo.png'
           priority
         /> */}
-        <h1 className='logo relative hidden font-serif text-3xl font-medium tracking-wider md:flex md:flex-col min-w-[200px] md:place-content-center'>
+        <h1 className='logo relative font-serif text-xl sm:text-3xl font-medium tracking-wider md:flex md:flex-col min-w-[200px] md:place-content-center'>
           Hotel Vittoria
         </h1>
       </div>

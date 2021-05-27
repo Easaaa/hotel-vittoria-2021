@@ -21,7 +21,7 @@ export default function IndexPage() {
     <>
       <Seo {...seoAttributes} />
       <Header
-        background='/assets/home/swimming-pool.png'
+        background='/assets/home/hotel-1.jpg'
         {...headerText}
         img_text={t.header.welcome}
       />

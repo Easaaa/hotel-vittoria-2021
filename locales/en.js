@@ -1,6 +1,6 @@
 /* ==== ACTIVITIES ==== */
 import Pizzoccolo2Img from '../assets/activities/pizzoccolo2.png';
-import HotelFromPool from '../public/assets/home/swimming-pool.png';
+import HotelFromPool from '../public/assets/home/hotel-1.jpg';
 import PizzoccoloImg from '../public/assets/activities/pizzoccolo-verticale.jpg';
 
 /* ==== ICONS ===== */
@@ -34,12 +34,12 @@ export default {
     welcome: 'welcome',
     hotel_vittoria: {
       title: `A fantastic stay`,
-      subTitle: 'for you',
+      subTitle: 'for you.',
       text: 'We are an happy family that has been working here for generations.',
       cta: 'Learn More',
       img: {
         url: HotelFromPool,
-        alt: 'Agriturismo san lorenzo viewed from outside, on a mountain view.',
+        alt: 'Hotel Vittoria view from the garden, with a swimming pool',
       },
     },
   },
@@ -53,11 +53,11 @@ export default {
         price: '50',
         guest: 'From 65 € per day',
         viewMore: 'View more',
-        img: '/assets/rooms/thumbnail/serenity.jpg',
+        img: '/assets/lake-view-jpg',
         videoUrl: 'https://www.youtube.com/embed/FCwlLM-Jqic',
         alt: 'An internal view of serenity apartment, with a wood table and a big window.',
         othersImages: [
-          { url: '/assets/rooms/serenity/1.jpeg', alt: '' },
+          { url: '/assets/lake-view.png', alt: '' },
           { url: '/assets/rooms/serenity/2.jpeg', alt: '' },
           { url: '/assets/rooms/serenity/3.jpeg', alt: '' },
           { url: '/assets/rooms/serenity/4.jpeg', alt: '' },
@@ -72,11 +72,11 @@ export default {
         price: '70',
         guest: 'From 55 € per day',
         viewMore: 'View more',
-        img: '/assets/rooms/thumbnail/armony.jpg',
+        img: '/assets/garden-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/lG8iiNx6A2g',
         alt: 'An internal view of Armony apartment, with a wood table and a big window.',
         othersImages: [
-          { url: '/assets/rooms/armony/1.jpeg', alt: '' },
+          { url: '/assets/garden-view.jpg', alt: '' },
           { url: '/assets/rooms/armony/2.jpeg', alt: '' },
           { url: '/assets/rooms/armony/3.jpeg', alt: '' },
           { url: '/assets/rooms/armony/4.jpeg', alt: '' },
@@ -91,11 +91,11 @@ export default {
         price: '60',
         guest: 'From 50 € per day',
         viewMore: 'View more',
-        img: '/assets/rooms/thumbnail/joy.jpg',
+        img: '/assets/internal-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/Efg7OlrCklY',
         alt: 'An internal view of Joy apartment, with a wood table and a big window.',
         othersImages: [
-          { url: '/assets/rooms/joy/1.jpeg', alt: '' },
+          { url: '/assets/internal-view.jpg', alt: '' },
           { url: '/assets/rooms/joy/2.jpeg', alt: '' },
           { url: '/assets/rooms/joy/3.jpeg', alt: '' },
           { url: '/assets/rooms/joy/4.jpeg', alt: '' },
@@ -108,7 +108,7 @@ export default {
       },
     ],
     viewOtherRooms: {
-      title: 'View other Rooms',
+      title: 'View other Room types',
       /*  text:
         'The apartments are comfortable and charmingly furnished, with any tool that you may need during your journey.', */
     },
@@ -137,7 +137,7 @@ export default {
 
   activities: {
     title: 'Activities',
-    desc: 'There are a lot of activities you can do. The park is full of attractions, with plenty of routes for incredible walking, cycling and climbing. The magnificent beach of Toscolano Maderno is also 15 minutes away by car.',
+    desc: 'There are a lot of activities you can do. Toscolano Maderno is full of attractions, with plenty of routes for incredible walking, cycling and climbing. The magnificent beach is also 10 minutes away by walk.',
     cta: 'Learn More',
     activitiesList: [
       { name: 'mountain', icon: MountainIcon },
@@ -148,7 +148,7 @@ export default {
   },
   contact: {
     title: 'Book Now',
-    desc: 'At our Lodge, there is a variety of rooms to choose from. Whether you.',
+    desc: 'At our Hotel, there is a variety of rooms to choose from. Whether you want.',
     form: {
       name: {
         name: 'name',
@@ -176,7 +176,6 @@ export default {
       error_msg:
         'Oops, it seems that there is an error, try again. Otherwise write us directly at info@sanlorenzodipersegno.it',
       button_text: 'send',
-      info: 'Vi consigliamo di impostare nel navigatore località Gaino. C’è la possibilità che il navigatore vi porti a Navazzo, NON dovete assolutamente seguire questa direzione. Una volta arrivati a Toscolano Maderno, proseguite per Gaino, poi entrate nella valle delle Camerate e proseguite per 5 km circa. La strada è una classica strada montana, sterrata e non asfaltata, consigliamo tranquillità e di godervi il percorso perchè una volta giunti in agriturismo la pace ricompenserà ogni sforzo.',
     },
   },
   lodge: {

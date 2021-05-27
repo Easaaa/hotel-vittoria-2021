@@ -14,7 +14,7 @@ export default function Rooms({
             {desc}
           </p>
         </div>
-        <div className='grid gap-8 mx-auto xl:grid-cols-2 place-content-center'>
+        <div className='grid gap-8 mx-auto place-content-center'>
           {rooms.map((room, index) => (
             <Room room={room} index={index} key={index} />
           ))}
