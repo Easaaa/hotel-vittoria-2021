@@ -85,9 +85,9 @@ export default function Menu({
           size={42}
           speed={3}
           strokeColor='white'
-          className={`transform transition ${
-            (isMenuOpen && 'rounded-full bg-gray-900') || 'rounded-md'
-          } ${(isMenuOpen || simplified) && 'bg-green-900 fill-current '}`}
+          className={`transform transition text-black ${
+            isMenuOpen && 'bg-como-700'
+          } ${(isMenuOpen || simplified) && 'bg-como-700 fill-current'}`}
         />
       </div>
 
@@ -96,7 +96,7 @@ export default function Menu({
       )}
 
       <ul
-        className={`grid absolute lg:border-0 bg-white text-black shadow left-0 top-0 z-20 p-2 w-2/3 sm:w-1/3 lg:w-full m-6 rounded-xl lg:flex lg:relative lg:bg-transparent lg:${textColor} lg:shadow-none lg:justify-end ${
+        className={`grid absolute lg:border-0 bg-white text-black shadow left-0 top-0 z-20 p-2 w-2/3 sm:w-1/3 lg:w-full m-6 lg:flex lg:relative lg:bg-transparent lg:${textColor} lg:shadow-none lg:justify-end ${
           (isMenuOpen && 'block') || 'hidden'
         }`}>
         <li className={`navLink ${isMenuActive(`/`)}`}>

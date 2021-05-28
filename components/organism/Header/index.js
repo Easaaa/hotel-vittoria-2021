@@ -28,7 +28,7 @@ export default function Header({
     <>
       <Menu navbar={t.navbar} simplified />
       <header
-        className={`w-full bg-cover p-6 relative max-w-screen-xl mx-auto`}>
+        className={`w-full bg-cover p-2 sm:p-6 relative max-w-screen-xl mx-auto`}>
         <div
           className={`lg:flex-grow flex flex-col md:items-start md:text-left items-center text-center md:pl-2
             `}>

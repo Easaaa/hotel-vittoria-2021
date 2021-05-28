@@ -33,7 +33,7 @@ export default function Room({
           </div>
         </div>
 
-        <div class='max-w-xl px-6 py-2 lg:max-w-5xl flex place-content-between place-items-center'>
+        <div class='max-w-xl px-2 sm:px-6 py-2 lg:max-w-5xl flex place-content-between place-items-center'>
           <h2 class='text-2xl font-bold font-serif text-como-700 dark:text-white md:text-3xl capitalize'>
             {parseNameView(name, locale)}
             <span class='text-xl text-gray-600 grid font-normal'>{guest}</span>
