@@ -1,11 +1,15 @@
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import useLocale from 'hooks/useLocale';
+import { parseNameView } from '@/utils/parseNameView';
 
 export default function Room({
   room: { name, othersImages, price, alt, text, guest, viewMore },
   index,
 }) {
+  const { locale } = useLocale();
   const router = useRouter();
+
   return (
     <section
       onClick={() =>
@@ -31,7 +35,7 @@ export default function Room({
 
         <div class='max-w-xl px-6 py-2 lg:max-w-5xl flex place-content-between place-items-center'>
           <h2 class='text-2xl font-bold font-serif text-como-700 dark:text-white md:text-3xl capitalize'>
-            {name.replace('-', ' ')}
+            {parseNameView(name, locale)}
             <span class='text-xl text-gray-600 grid font-normal'>{guest}</span>
           </h2>
 

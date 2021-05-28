@@ -132,6 +132,10 @@ export default {
           text: 'The check-in is allowed from 10:00 am to 06:00 pm. The check-out limit is 10:00 am.',
         },
       },
+      lookInside: {
+        title: 'A look inside it',
+        text: 'Have a look to our amazing rooms. Lake views rooms have a direct access to the shared terrace provided with tables and chairs to sit and enjoy the view during the day and the meals.',
+      },
     },
   },
 

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { parseNameView } from '@/utils/parseNameView';
 
 export default function RoomsPreview({ locale, room }) {
   const router = useRouter();
@@ -42,7 +43,7 @@ export default function RoomsPreview({ locale, room }) {
                     </div>
                     <div className='block'>
                       <h2 className='text-lg font-semibold text-gray-900 capitalize title-font'>
-                        {el.name}
+                        {parseNameView(el.name)}
                       </h2>
                       <p className='capitalize'>{el.guest}</p>
                       <div className='flex-grow'>

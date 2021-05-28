@@ -19,45 +19,45 @@ import MountainIcon from '../assets/icons/mountain.png';
 export default {
   seo: {
     homepage: 'Homepage',
-    apartments: 'Rooms',
-    lodge: 'The Hotel',
-    activities: 'Activities',
+    apartments: 'Stanze',
+    lodge: "L'Albergo",
+    activities: 'Attività',
   },
   navbar: {
     home: 'Home',
-    lodge: 'The Hotel',
-    apartments: 'Rooms',
-    activities: 'Activities',
-    contact: 'Contact',
+    lodge: "L'Albergo",
+    apartments: 'Stanze',
+    activities: 'Attività',
+    contact: 'Contatti',
   },
   header: {
-    welcome: 'welcome',
+    welcome: 'benvenuto',
     hotel_vittoria: {
-      title: `A fantastic stay`,
-      subTitle: 'for you.',
-      text: 'We are an happy family that has been working here for generations.',
-      cta: 'Learn More',
+      title: `Un fantastico soggiorno`,
+      subTitle: 'per te.',
+      text: 'Siamo una felice famiglia che lavora qui da generazioni.',
+      cta: 'Scopri di più',
       img: {
         url: HotelFromPool,
-        alt: 'Agriturismo san lorenzo viewed from outside, on a mountain view.',
+        alt: 'Hotel Vittoria view from the garden, with a swimming pool',
       },
     },
   },
 
   rooms: {
-    title: 'Rooms & Views',
-    desc: 'The Hotel Vittoria is located in the heart of Maderno village. Our facility is comfortable and quiet: it is situated in a residential area surrounded by olive trees, it disposes of large and bright spaces in a warm and welcoming atmosphere.',
+    title: 'Stanze & Vista',
+    desc: 'L’Hotel Vittoria si trova nel cuore del borgo di Maderno. La nostra struttura è accogliente e tranquilla: immerso tra il verde degli ulivi, offre spazi ampi e luminosi che ti avvolgono in un’atmosfera calda e accogliente.',
     rooms: [
       {
         name: 'lake-view',
         price: '50',
-        guest: 'From 65 € per day',
-        viewMore: 'View more',
-        img: '/assets/lake-view-jpg',
+        guest: 'Da 65 € al giorno',
+        viewMore: 'Vedi',
+        img: '/assets/lake-view.png',
         videoUrl: 'https://www.youtube.com/embed/FCwlLM-Jqic',
         alt: 'An internal view of serenity apartment, with a wood table and a big window.',
         othersImages: [
-          { url: '/assets/lake-view.jpg', alt: '' },
+          { url: '/assets/lake-view.png', alt: '' },
           { url: '/assets/rooms/serenity/2.jpeg', alt: '' },
           { url: '/assets/rooms/serenity/3.jpeg', alt: '' },
           { url: '/assets/rooms/serenity/4.jpeg', alt: '' },
@@ -70,8 +70,8 @@ export default {
       {
         name: 'garden-view',
         price: '70',
-        guest: 'From 55 € per day',
-        viewMore: 'View more',
+        guest: 'Da 55 € al giorno',
+        viewMore: 'Vedi',
         img: '/assets/garden-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/lG8iiNx6A2g',
         alt: 'An internal view of Armony apartment, with a wood table and a big window.',
@@ -87,10 +87,10 @@ export default {
         ],
       },
       {
-        name: 'internal-view',
+        name: 'mountain-view',
         price: '60',
-        guest: 'From 50 € per day',
-        viewMore: 'View more',
+        guest: 'Da 50 € al giorno',
+        viewMore: 'Vedi',
         img: '/assets/internal-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/Efg7OlrCklY',
         alt: 'An internal view of Joy apartment, with a wood table and a big window.',
@@ -108,36 +108,43 @@ export default {
       },
     ],
     viewOtherRooms: {
-      title: 'View other Rooms',
+      title: 'Vedi altri tipi di stanze',
       /*  text:
         'The apartments are comfortable and charmingly furnished, with any tool that you may need during your journey.', */
     },
     infoRooms: {
       features: [
-        { name: 'Mini Fridge', icon: <MdKitchen className='text-2xl' /> },
-        { name: 'Parking', icon: <FaParking className='text-2xl' /> },
-        { name: 'Free Wi-Fi', icon: <WifiIcon className='text-2xl' /> },
-        { name: 'Animal Friendly', icon: <DogIcon className='text-2xl' /> },
+        { name: 'Mini Frigo', icon: <MdKitchen className='text-2xl' /> },
+        { name: 'Parcheggio', icon: <FaParking className='text-2xl' /> },
+        { name: 'Wi-Fi Gratis', icon: <WifiIcon className='text-2xl' /> },
+        {
+          name: 'Animali sono Benvenuti',
+          icon: <DogIcon className='text-2xl' />,
+        },
       ],
       bulletList: {
-        title: 'Description',
+        title: 'Descrizione',
         list: [
-          'They have a direct access to the shared terrace provided with tables and chairs to sit and enjoy the view during the day and the meals.',
+          'Le stanze vista lago hanno accesso diretto al terrazzo in comune, fornito di tavoli per poter gioire della vista durante la giornata, i pranzi o le cene.',
         ],
       },
       additionalInfo: {
-        title: 'Additional Info',
+        title: 'Altre informazioni',
         arrivalDeparture: {
           title: 'Check-in / Check-out',
-          text: 'The check-in is allowed from 10:00 am to 06:00 pm. The check-out limit is 10:00 am.',
+          text: 'Il check-in potrà essere effettuato dalle 14.00 mentre il check-out è consentito fino alle ore 10.00 di mattina.',
         },
+      },
+      lookInside: {
+        title: 'Uno sguardo ai dettagli',
+        text: "Dai un'occhiata alle nostre fantastiche. Le terrazze vista lago hanno un accesso diretto alla terrazza comune attrezzata con tavoli e sedie per sedersi e godersi il panorama durante il giorno e durante i pasti.",
       },
     },
   },
 
   activities: {
-    title: 'Activities',
-    desc: 'There are a lot of activities you can do. The park is full of attractions, with plenty of routes for incredible walking, cycling and climbing. The magnificent beach of Toscolano Maderno is also 15 minutes away by car.',
+    title: 'Attività',
+    desc: 'Ci sono molte attività che puoi fare. Toscolano Maderno è ricca di attrazioni, con tantissimi percorsi per incredibili passeggiate a piedi, in bicicletta e arrampicate. La magnifica spiaggia si trova a 10 minuti a piedi.',
     cta: 'Learn More',
     activitiesList: [
       { name: 'mountain', icon: MountainIcon },
@@ -147,20 +154,20 @@ export default {
     ],
   },
   contact: {
-    title: 'Book Now',
-    desc: 'At our Lodge, there is a variety of rooms to choose from. Whether you.',
+    title: 'Prenota ora',
+    desc: 'Ci sono tanti tipi di stanze che puoi scegliere, scrivici le tue preferenze e cercheremo di soddisfarti al meglio.',
     form: {
       name: {
         name: 'name',
-        placeholder: 'Full Name',
+        placeholder: 'Nome completo',
       },
       arrival: {
         name: 'arrival',
-        placeholder: 'Select an arrival date',
+        placeholder: 'Seleziona una data di arrivo',
       },
       departure: {
         name: 'departure',
-        placeholder: 'Select a departure date',
+        placeholder: 'Seleziona una data di partenza',
       },
       email: {
         name: 'email',
@@ -168,32 +175,31 @@ export default {
       },
       message: {
         name: 'message',
-        placeholder: 'Write your message',
+        placeholder: 'Scrivi un messaggio',
       },
-      is_required: 'This field is required',
+      is_required: 'Questa sezione è obbligatoria',
       success_msg:
-        'Email submitted correctly! We will reply you as soon as possible. Thanks.',
+        'Email inviata correttamente! Ti risponderemo il prima possibile. Grazie.',
       error_msg:
-        'Oops, it seems that there is an error, try again. Otherwise write us directly at info@sanlorenzodipersegno.it',
-      button_text: 'send',
-      info: 'Vi consigliamo di impostare nel navigatore località Gaino. C’è la possibilità che il navigatore vi porti a Navazzo, NON dovete assolutamente seguire questa direzione. Una volta arrivati a Toscolano Maderno, proseguite per Gaino, poi entrate nella valle delle Camerate e proseguite per 5 km circa. La strada è una classica strada montana, sterrata e non asfaltata, consigliamo tranquillità e di godervi il percorso perchè una volta giunti in agriturismo la pace ricompenserà ogni sforzo.',
+        'Oops, sembra esserci stato un problema, ti invitiamo a riprovare. Altrimenti scrivici direttamente a info@vittoriahotel.eu',
+      button_text: 'invia',
     },
   },
   lodge: {
     img_text: "It's coazy",
-    title: `Our priority is to meet all of your needs`,
-    subTitle: 'with special care for details.',
+    title: `La nostra priorità è soddisfare ogni tua necessità`,
+    subTitle: 'con una cura speciale per i dettagli.',
     text: '',
     facility: {
-      img: '/assets/agriturismo/agriturismo-outside.jpg',
-      title: 'The facilities',
-      text: 'The hotel disposes of a private swimming pool for our guests, with two different depths: the first is 1.50 m deep, suitable for adults, and the second is 1 m deep, suitable for children. In the garden you can find sun umbrellas, lawn chairs and tables where you can comfortably eat lunch/dinner in the open air.',
+      img: '/assets/hotel/facility.jpg',
+      title: 'La struttura',
+      text: "L'albergo dispone di una piscina privata per i nostri ospiti, con due diverse profondità: la prima profonda 1,50 m, adatta agli adulti, e la seconda profonda 1 m, adatta ai bambini. Nel giardino si possono trovare ombrelloni, sdraio e tavolini dove poter comodamente pranzare e cenare all'aria aperta.",
     },
 
     breakfast: {
-      img: '/assets/agriturismo/agriturismo-outside.jpg',
-      title: 'Breakfast',
-      text: 'Breakfast is served between 08:00 and 10:00. You will find a rich smorgasbord, salty and sweet, with delicious homemade cakes. You can also eat outside in our paradisiac terrace.',
+      img: '/assets/hotel/terrace.jpg',
+      title: 'La colazione',
+      text: "La colazione viene servita dalle 08:00 alle 10:00. Troverete un ricco buffet, salato e dolce, con deliziose torte fatte in casa. Puoi anche mangiare all'aperto nella nostra terrazza paradisiaca.",
     },
   },
   activities_page: {

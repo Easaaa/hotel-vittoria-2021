@@ -49,11 +49,9 @@ export default function Rooms({ roomFrom, imagesArray }) {
       {/* <Carousel t={t} selectedRoom={roomFrom} /> */}
 
       <div className='flex flex-col w-full mb-20 text-center'>
-        <h2 className='title_section'>A look inside it</h2>
+        <h2 className='title_section'>{t.rooms.infoRooms.lookInside.title}</h2>
         <p className='mx-auto text-base leading-relaxed lg:w-2/3 max-w-prose'>
-          Have a look to our amazing rooms with lake view. They have a direct
-          access to the shared terrace provided with tables and chairs to sit
-          and enjoy the view during the day and the meals.
+          {t.rooms.infoRooms.lookInside.text}
         </p>
       </div>
       <div className='mx-auto mb-6 sm:mb-20 sm:w-2/3'>
