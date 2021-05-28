@@ -15,7 +15,7 @@ export default function Seo({ description, title, keywords }) {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: pageTitle,
-    url: 'https://agriturismosanlorenzodipersegno.it',
+    url: 'https://vittoriahotel.eu',
   };
 
   const globalMicroformats = {
@@ -23,7 +23,7 @@ export default function Seo({ description, title, keywords }) {
     '@type': 'WebPage',
     name: website_title,
     description: description || website_description,
-    URL: 'https://agriturismosanlorenzodipersegno.it',
+    URL: 'https://vittoriahotel.eu',
   };
 
   return (
@@ -39,13 +39,18 @@ export default function Seo({ description, title, keywords }) {
       <meta property='og:type' content='website' />
       <meta
         property='og:url'
-        content={`https://agriturismosanlorenzodipersegno.it/${router?.asPath}`}
+        content={`https://vittoriahotel.eu/${router?.asPath}`}
       />
       {/*  <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:creator' content='@timsy.io' />
       <meta name='twitter:title' content={`Timsy — ${title}`} />
       <meta name='twitter:image' content='' />
       <meta name='twitter:description' content={description || website_description} /> */}
+      <script
+        async
+        defer
+        data-website-id='d3022ab6-5c52-4159-bebb-b2bca26dea0a'
+        src='https://umami-easa.vercel.app/umami.js'></script>
       <script
         type='application/ld+json'
         dangerouslySetInnerHTML={{ __html: JSON.stringify(microformats) }}
@@ -56,7 +61,7 @@ export default function Seo({ description, title, keywords }) {
       />
       <link
         rel='canonical'
-        href={`https://agriturismosanlorenzodipersegno.it${router?.asPath}`}
+        href={`https://vittoriahotel.eu${router?.asPath}`}
       />
     </Head>
   );

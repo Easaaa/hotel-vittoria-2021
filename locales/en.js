@@ -50,8 +50,8 @@ export default {
     rooms: [
       {
         name: 'lake-view',
-        price: '50',
-        guest: 'From 65 € per day',
+        price: '90',
+        guest: 'From 90 € per day',
         viewMore: 'View more',
         img: '/assets/lake-view.png',
         videoUrl: 'https://www.youtube.com/embed/FCwlLM-Jqic',
@@ -69,8 +69,8 @@ export default {
       },
       {
         name: 'garden-view',
-        price: '70',
-        guest: 'From 55 € per day',
+        price: '85',
+        guest: 'From 85 € per day',
         viewMore: 'View more',
         img: '/assets/garden-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/lG8iiNx6A2g',
@@ -88,8 +88,8 @@ export default {
       },
       {
         name: 'mountain-view',
-        price: '60',
-        guest: 'From 50 € per day',
+        price: '85',
+        guest: 'From 85 € per day',
         viewMore: 'View more',
         img: '/assets/internal-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/Efg7OlrCklY',
