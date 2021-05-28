@@ -178,7 +178,7 @@ export default {
       success_msg:
         'Email submitted correctly! We will reply you as soon as possible. Thanks.',
       error_msg:
-        'Oops, it seems that there is an error, try again. Otherwise write us directly at info@sanlorenzodipersegno.it',
+        'Oops, it seems that there is an error, try again. Otherwise write us directly at info@vittoriahotel.eu',
       button_text: 'send',
     },
   },
