@@ -41,7 +41,7 @@ export default function Header({
           </p>
 
           {cta && (
-            <Link href='/agriturismo'>
+            <Link href='/hotel'>
               <a className='flex-none w-auto px-6 py-3 text-lg leading-6 text-white transition-colors duration-200 border border-transparent bg-como-500 hover:bg-como-700 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none'>
                 {cta}
               </a>
