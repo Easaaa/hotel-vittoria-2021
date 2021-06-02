@@ -44,7 +44,7 @@ export default function Form({
       .send(
         process.env.NEXT_PUBLIC_SERVICE_EMAILJS,
         process.env.NEXT_PUBLIC_TEMPLATE_EMAILJS,
-        /* templateParams, */
+        templateParams,
         process.env.NEXT_PUBLIC_USER_EMAILJS
       )
       .then((response) => {

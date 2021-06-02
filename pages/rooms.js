@@ -57,7 +57,6 @@ export default function Rooms({ roomFrom, imagesArray }) {
       <div className='mx-auto mb-6 sm:mb-20 sm:w-2/3'>
         <ImageGallery
           items={imagesArray}
-          lazyLoad={true}
           showPlayButton={false}
           showIndex={true}
           showThumbnails={false}

@@ -125,7 +125,7 @@ export default {
       bulletList: {
         title: 'Descrizione',
         list: [
-          'Le stanze vista lago hanno accesso diretto al terrazzo in comune, fornito di tavoli per poter gioire della vista durante la giornata, i pranzi o le cene.',
+          "Le stanze vista lago hanno accesso diretto al terrazzo in comune. Nelle aree comuni dell'Hotel potrete trovare tutto il necessario per poter pranzare e cenare in assoluta tranquillità e comodità.",
         ],
       },
       additionalInfo: {
@@ -137,7 +137,7 @@ export default {
       },
       lookInside: {
         title: 'Uno sguardo ai dettagli',
-        text: "Dai un'occhiata alle nostre fantastiche. Le terrazze vista lago hanno un accesso diretto alla terrazza comune attrezzata con tavoli e sedie per sedersi e godersi il panorama durante il giorno e durante i pasti.",
+        text: "Dai un'occhiata alle nostre fantastiche camere. Le camere vista lago hanno un accesso diretto alla terrazza comune dove potrete godervi il panorama durante il giorno e i pasti.",
       },
     },
   },
