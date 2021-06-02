@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['Playfair Display'],
+      },
       colors: {
         como: {
           DEFAULT: '#527763',

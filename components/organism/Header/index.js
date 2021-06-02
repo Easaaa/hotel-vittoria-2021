@@ -32,11 +32,11 @@ export default function Header({
         <div
           className={`lg:flex-grow flex flex-col md:items-start md:text-left items-center text-center md:pl-2
             `}>
-          <h1 className='mt-10 mb-4 font-serif text-4xl font-extrabold leading-none text-peach-500 sm:text-6xl lg:text-7xl sm:mt-14'>
+          <h1 className='mt-10 mb-4 font-serif text-4xl font-extrabold leading-none tracking-wide text-peach-500 sm:text-6xl lg:text-7xl sm:mt-14'>
             {title} <span className='text-como-700'>{subTitle}</span>
           </h1>
 
-          <p className='max-w-screen-lg mb-4 text-lg text-gray-600 sm:text-2xl sm:leading-10 sm:mb-10'>
+          <p className='max-w-screen-md mb-4 text-sm text-gray-700 break-words sm:text-xl sm:mb-8'>
             {text}
           </p>
 

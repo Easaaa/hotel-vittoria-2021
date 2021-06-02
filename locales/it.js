@@ -33,9 +33,9 @@ export default {
   header: {
     welcome: 'benvenuto',
     hotel_vittoria: {
-      title: `Un fantastico soggiorno`,
-      subTitle: 'per te.',
-      text: 'Siamo una felice famiglia che lavora qui da generazioni.',
+      title: `Un fantastico e tranquillo`,
+      subTitle: 'soggiorno per voi.',
+      text: 'Siamo una felice famiglia che lavora qui da generazioni, ci prendiamo cura di ogni dettaglio per fartvi godere al meglio la vostra vacanza.',
       cta: 'Scopri di più',
       img: {
         url: HotelFromPool,
