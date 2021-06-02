@@ -44,7 +44,7 @@ export default function Form({
       .send(
         process.env.NEXT_PUBLIC_SERVICE_EMAILJS,
         process.env.NEXT_PUBLIC_TEMPLATE_EMAILJS,
-        templateParams,
+        /* templateParams, */
         process.env.NEXT_PUBLIC_USER_EMAILJS
       )
       .then((response) => {
@@ -104,7 +104,7 @@ export default function Form({
     <form
       onSubmit={handleSubmit(onSubmit)}
       className='flex flex-wrap mx-auto -m-2 lg:w-1/2 md:w-2/3'>
-      <div className='w-1/2 p-2'>
+      <div className='w-full p-2 sm:w-1/2'>
         <div className='relative'>
           <label
             for='name'
@@ -117,12 +117,12 @@ export default function Form({
             type='text'
             id='name'
             name='name'
-            className='w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 rounded outline-none focus:border-green-700 focus:bg-white focus:ring-2 focus:ring-indigo-200'
+            className='w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 outline-none appearance-none focus:border-green-700 focus:bg-white focus:ring-2 focus:ring-indigo-200'
           />
           {errors.name && <RenderRequired />}
         </div>
       </div>
-      <div className='w-1/2 p-2'>
+      <div className='w-full p-2 sm:w-1/2'>
         <div className='relative'>
           <label
             for='email'
@@ -135,7 +135,7 @@ export default function Form({
             type='email'
             id='email'
             name='email'
-            className='w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 rounded outline-none focus:border-green-700 focus:bg-white focus:ring-2 focus:ring-indigo-200'
+            className='w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 outline-none appearance-none focus:border-green-700 focus:bg-white focus:ring-2 focus:ring-indigo-200'
           />
           {errors.email && <RenderRequired />}
         </div>
@@ -155,7 +155,7 @@ export default function Form({
             {...register('message', { required: true })}
             id='message'
             name='message'
-            className='w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-green-700 focus:bg-white focus:ring-2 focus:ring-indigo-200'></textarea>
+            className='w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-gray-300 outline-none appearance-none resize-none focus:border-green-700 focus:bg-white focus:ring-2 focus:ring-indigo-200'></textarea>
           {errors.message && <RenderRequired />}
         </div>
       </div>
@@ -168,7 +168,7 @@ export default function Form({
       <div className='w-full p-2'>
         <input
           type='submit'
-          className={`flex px-8 py-2 mx-auto text-lg text-white capitalize border-0 cursor-pointer focus:outline-none ${
+          className={`flex px-8 py-2 mx-auto text-lg text-white outline-none appearance-none capitalize border-0 cursor-pointer focus:outline-none ${
             (status.submitted && 'bg-green-400') ||
             'hover:bg-como-700 bg-como-500'
           }`}

@@ -50,8 +50,8 @@ export default {
     rooms: [
       {
         name: 'lake-view',
-        price: '50',
-        guest: 'From 65 € per day',
+        price: '90',
+        guest: 'From 90 € per day',
         viewMore: 'View more',
         img: '/assets/lake-view.png',
         videoUrl: 'https://www.youtube.com/embed/FCwlLM-Jqic',
@@ -69,8 +69,8 @@ export default {
       },
       {
         name: 'garden-view',
-        price: '70',
-        guest: 'From 55 € per day',
+        price: '85',
+        guest: 'From 85 € per day',
         viewMore: 'View more',
         img: '/assets/garden-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/lG8iiNx6A2g',
@@ -88,8 +88,8 @@ export default {
       },
       {
         name: 'mountain-view',
-        price: '60',
-        guest: 'From 50 € per day',
+        price: '85',
+        guest: 'From 85 € per day',
         viewMore: 'View more',
         img: '/assets/internal-view.jpg',
         videoUrl: 'https://www.youtube.com/embed/Efg7OlrCklY',
@@ -131,6 +131,10 @@ export default {
           title: 'Check-in / Check-out',
           text: 'The check-in is allowed from 10:00 am to 06:00 pm. The check-out limit is 10:00 am.',
         },
+      },
+      lookInside: {
+        title: 'A look inside it',
+        text: 'Have a look to our amazing rooms. Lake views rooms have a direct access to the shared terrace provided with tables and chairs to sit and enjoy the view during the day and the meals.',
       },
     },
   },
@@ -174,7 +178,7 @@ export default {
       success_msg:
         'Email submitted correctly! We will reply you as soon as possible. Thanks.',
       error_msg:
-        'Oops, it seems that there is an error, try again. Otherwise write us directly at info@sanlorenzodipersegno.it',
+        'Oops, it seems that there is an error, try again. Otherwise write us directly at info@vittoriahotel.eu',
       button_text: 'send',
     },
   },

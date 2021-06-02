@@ -28,7 +28,7 @@ export default function Header({
     <>
       <Menu navbar={t.navbar} simplified />
       <header
-        className={`w-full bg-cover p-6 relative max-w-screen-xl mx-auto`}>
+        className={`w-full bg-cover p-2 sm:p-6 relative max-w-screen-xl mx-auto`}>
         <div
           className={`lg:flex-grow flex flex-col md:items-start md:text-left items-center text-center md:pl-2
             `}>
@@ -41,7 +41,7 @@ export default function Header({
           </p>
 
           {cta && (
-            <Link href='/agriturismo'>
+            <Link href='/hotel'>
               <a className='flex-none w-auto px-6 py-3 text-lg leading-6 text-white transition-colors duration-200 border border-transparent bg-como-500 hover:bg-como-700 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none'>
                 {cta}
               </a>

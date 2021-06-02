@@ -7,7 +7,7 @@ export default function Rooms({
 }) {
   return (
     <section className='text-gray-600 bg-gray-100 body-font'>
-      <div className='container px-5 py-24 mx-auto'>
+      <div className='container px-2 py-12 mx-auto sm:py-24 sm:px-5'>
         <div className='flex flex-col w-full mb-20 text-center'>
           <h2 className='title_section'>{title}</h2>
           <p className='mx-auto text-base leading-relaxed lg:w-2/3 max-w-prose'>
