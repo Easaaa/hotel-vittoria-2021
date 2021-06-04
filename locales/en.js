@@ -35,7 +35,7 @@ export default {
     hotel_vittoria: {
       title: `A fantastic stay`,
       subTitle: 'for you.',
-      text: 'We are an happy family that has been working here for generations.',
+      text: 'We are an happy family that has been working here for generations. We take care of every detail to give you the best holiday possible.',
       cta: 'Learn More',
       img: {
         url: HotelFromPool,
