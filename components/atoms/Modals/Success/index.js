@@ -1,6 +1,6 @@
 export default function Success({ message, close }) {
   return (
-    <div class='w-full text-white bg-green-400 rounded m-2'>
+    <div class='w-full text-white bg-green-500 rounded m-2'>
       <div class='container flex items-center justify-between px-6 py-3 mx-auto'>
         <div class='flex'>
           <svg viewBox='0 0 40 40' class='w-6 h-6 fill-current'>

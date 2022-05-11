@@ -5,7 +5,7 @@ import ColumnSection from '@/components/organism/ColumnSection';
 import Contact from '@/components/organism/Contact';
 import Footer from '@/components/organism/Footer';
 
-export default function Agriturismo() {
+export default function Hotel() {
   const { t } = useLocale();
 
   const { title, subTitle, text, cta, facility, breakfast } = t.lodge;

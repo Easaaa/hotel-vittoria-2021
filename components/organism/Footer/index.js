@@ -11,7 +11,7 @@ export default function Footer({
   return (
     <footer className='relative z-50 flex flex-col justify-end w-full py-10 text-gray-800 bg-bottom bg-gray-50 max-h-800'>
       <div className='z-50 flex justify-center w-full pb-4 md:pb-10'>
-        {/*  <Image
+        {/*  <img
           src={'/black-logo.png'}
           className={`object-container object-center`}
           alt='hero'

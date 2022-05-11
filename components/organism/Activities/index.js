@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 
 export default function Activities({ t }) {
   const {
@@ -30,7 +29,7 @@ export default function Activities({ t }) {
 
       <div className='flex flex-wrap w-1/2'>
         <div className='w-1/2 p-1 md:p-2'>
-          <Image
+          <img
             lazy
             alt='A white mountain after snowing and a black dog'
             className='block object-cover object-center w-full h-full'
@@ -40,7 +39,7 @@ export default function Activities({ t }) {
           />
         </div>
         <div className='w-1/2 p-1 md:p-2'>
-          <Image
+          <img
             lazy
             alt='the river inside valle camerate valley, near agriturismo'
             className='block object-cover object-center w-full h-full'
@@ -50,7 +49,7 @@ export default function Activities({ t }) {
           />
         </div>
         <div className='w-full p-1 md:p-2'>
-          <Image
+          <img
             lazy
             alt='The monte pizzoccolo from the Salo village'
             className='block object-cover object-center w-full h-full'
@@ -62,7 +61,7 @@ export default function Activities({ t }) {
       </div>
       <div className='flex flex-wrap w-1/2'>
         <div className='w-full p-1 md:p-2'>
-          <Image
+          <img
             lazy
             alt='gallery'
             className='block object-cover object-center w-full h-full'
@@ -72,7 +71,7 @@ export default function Activities({ t }) {
           />
         </div>
         <div className='w-1/2 p-1 md:p-2'>
-          <Image
+          <img
             lazy
             alt='A lemon plant in Limone del Garda'
             className='block object-cover object-center w-full h-full'
@@ -82,7 +81,7 @@ export default function Activities({ t }) {
           />
         </div>
         <div className='w-1/2 p-1 md:p-2'>
-          <Image
+          <img
             lazy
             alt='A selection of mountain cheese on a table'
             className='block object-cover object-center w-full h-full'
@@ -92,7 +91,7 @@ export default function Activities({ t }) {
           />
         </div>
         <div className='w-full p-1 md:p-2'>
-          <Image
+          <img
             lazy
             alt='The Toscolano Maderno square with a view of the so called "golfo", a porto with a lot of boats.'
             className='block object-cover object-center w-full h-full'

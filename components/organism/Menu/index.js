@@ -5,7 +5,6 @@ import useLocale from 'hooks/useLocale';
 import UseAnimations from 'react-useanimations';
 import menu2 from 'react-useanimations/lib/menu2';
 import dynamic from 'next/dynamic';
-import Image from 'next/image';
 const Flag = dynamic(() => import('react-flagpack'), { ssr: false });
 
 export default function Menu({

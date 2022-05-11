@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 import Button from 'components/atoms/Button';
 
 export default function ColumnSection({
@@ -26,9 +25,8 @@ export default function ColumnSection({
           className={`lg:max-w-lg lg:w-full md:w-1/2 mb-10 md:mb-0 md:pr-8 ${
             inverted && 'md:order-last'
           }`}>
-          <Image
+          <img
             className='object-cover object-center'
-            /*             alt={img.alt} */
             src={img}
             width={875}
             height={575}

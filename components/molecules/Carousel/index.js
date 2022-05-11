@@ -1,15 +1,12 @@
-import Image from 'next/image';
 
 export default function Carousel({ t: { rooms }, selectedRoom }) {
   const RenderRooms = rooms.rooms.map((room) => {
     if (room.name !== selectedRoom) return;
     return room.othersImages.map((el) => (
-      <Image
+      <img
         src={el.url}
         className='object-cover w-full rounded-md h-2/3 lg:place-self-center'
         alt={el.alt}
-        width={300}
-        height={200}
       />
     ));
   });

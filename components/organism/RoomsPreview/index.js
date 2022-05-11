@@ -33,7 +33,7 @@ export default function RoomsPreview({ locale, room }) {
                 <div className='relative flex flex-col content-center px-4 sm:px-8 bg-gray-50 h-2/3 group-hover:bg-gray-100'>
                   <div className='flex items-center mt-6'>
                     <div className='inline-flex items-center justify-center flex-shrink-0 mr-3'>
-                      <Image
+                      <img
                         src={el.othersImages[0].url}
                         className='object-cover shadow-md w-44 h-44'
                         width={120}

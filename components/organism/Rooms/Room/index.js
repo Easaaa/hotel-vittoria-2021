@@ -21,8 +21,8 @@ export default function Room({
       <div class='lg:mx-8 lg:max-w-5xl rounded-lg'>
         <div class={``}>
           <div class='rounded-lg lg:h-full'>
-            <Image
-              className='w-full h-full'
+            <img
+              className='w-full h-full h-[400px] w-[1200px] object-cover'
               alt={othersImages[0].alt}
               objectFit='cover'
               src={othersImages[0].url}
@@ -34,7 +34,7 @@ export default function Room({
         </div>
 
         <div class='max-w-xl px-2 sm:px-6 py-2 lg:max-w-5xl flex place-content-between place-items-center'>
-          <h2 class='text-2xl font-bold font-serif text-como-700 dark:text-white md:text-3xl capitalize'>
+          <h2 class='text-2xl font-bold font-serif text-como-700 md:text-3xl capitalize'>
             {parseNameView(name, locale)}
             <span class='text-xl text-gray-600 grid font-normal'>{guest}</span>
           </h2>

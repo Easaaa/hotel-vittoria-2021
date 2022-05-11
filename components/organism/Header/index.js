@@ -49,7 +49,7 @@ export default function Header({
           )}
         </div>
         <div className='relative mx-auto my-10 md:my-20 max-w-screen-2xl'>
-          <Image
+          <img
             alt='hotel vittoria swimming pool'
             src={background}
             objectFit='cover'

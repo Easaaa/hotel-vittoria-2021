@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { IoPlayCircle } from 'react-icons/io5';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
@@ -27,8 +26,8 @@ export default function ImgCentral({
           </>
         )}
 
-        <Image
-          className={`w-full object-cover object-center hover:shadow-md`}
+        <img
+          className={`w-full object-cover object-center hover:shadow-md w-[1225px] h-[575px]`}
           alt='hero'
           src={image}
           width={1225}
@@ -41,7 +40,7 @@ export default function ImgCentral({
             <button className='focus:outline-none group'>
               <div className='relative w-full'>
                 <IoPlayCircle className='absolute z-10 mr-2 text-5xl text-white transition transform top-4 left-4 sm:top-10 sm:text-8xl sm:left-10 group-hover:scale-125' />
-                <Image
+                <img
                   className={`w-full object-cover object-center hover:shadow-md`}
                   alt='hero'
                   src={image}
