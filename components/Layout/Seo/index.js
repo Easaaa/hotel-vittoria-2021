@@ -58,8 +58,8 @@ export default function Seo({ description, title, keywords }) {
       <Script
         async
         defer
-        data-website-id="d3022ab6-5c52-4159-bebb-b2bca26dea0a"
-        src="https://umami-easa.vercel.app/umami.js"
+        data-website-id="8a8138c8-4c77-4708-b954-b5216e3a3e6b"
+        src="https://umami-production-b8d7.up.railway.app/umami.js"
       ></Script>
       <Script
         type="application/ld+json"
