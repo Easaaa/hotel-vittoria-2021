@@ -32,8 +32,8 @@ export default function Header({
         <div
           className={`lg:flex-grow flex flex-col md:items-start md:text-left items-center text-center md:pl-2
             `}>
-          <h1 className='mt-10 mb-4 font-serif text-4xl font-extrabold leading-none tracking-wide text-peach-500 sm:text-6xl lg:text-7xl sm:mt-14'>
-            {title} <span className='text-como-700'>{subTitle}</span>
+          <h1 className='mt-10 mb-4 font-serif text-6xl font-extrabold leading-none tracking-wide text-peach-500 sm:text-6xl lg:text-7xl sm:mt-14'>
+            {title} <span className='text-sky-900'>{subTitle}</span>
           </h1>
 
           <p className='max-w-screen-md mb-4 text-sm text-gray-700 break-words sm:text-xl sm:mb-8'>
@@ -42,7 +42,7 @@ export default function Header({
 
           {cta && (
             <Link href='/hotel'>
-              <a className='flex-none w-auto px-6 py-3 text-lg leading-6 text-white transition-colors duration-200 border border-transparent bg-como-500 hover:bg-como-700 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none'>
+              <a className='flex-none w-auto px-3 py-1.5 lg:px-6 lg:py-3 text-sm font-semibold lg:text-lg leading-6 text-gray-900 hover:text-white transition-colors duration-200 hover:bg-sky-900 border-2 border-sky-900 focus:ring-2 focus:outline-none'>
                 {cta}
               </a>
             </Link>

@@ -17,6 +17,7 @@ export default {
     apartments: "Rooms",
     activities: "Activities",
     contact: "Contact",
+    booking: "Booking Now"
   },
   header: {
     welcome: "welcome",
@@ -139,8 +140,8 @@ export default {
     ],
   },
   contact: {
-    title: "Book Now",
-    desc: "At our Hotel, there is a variety of rooms to choose from. Whether you want.",
+    title: "Contact Us",
+    desc: "Get it in touch. Clear any doubts.",
     form: {
       name: {
         name: "name",

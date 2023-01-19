@@ -24,6 +24,7 @@ export default {
     apartments: "Stanze",
     activities: "Attività",
     contact: "Contatti",
+    booking: "Prenota Ora"
   },
   header: {
     welcome: "benvenuto",
@@ -149,8 +150,8 @@ export default {
     ],
   },
   contact: {
-    title: "Prenota ora",
-    desc: "Ci sono tanti tipi di stanze che puoi scegliere, scrivici le tue preferenze e cercheremo di soddisfarti al meglio.",
+    title: "Scrivici",
+    desc: "Siamo qui per aiutarti.",
     form: {
       name: {
         name: "name",
