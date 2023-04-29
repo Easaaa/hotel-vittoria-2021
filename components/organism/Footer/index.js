@@ -70,7 +70,7 @@ export default function Footer({
           Toscolano Maderno (BS) - 25088
         </p>
         <div className="grid gap-2 mt-6 mb-8 text-gray-800 underline">
-          <a href="mailto:info@sanlorenzodipersegno.it">
+          <a href="mailto:info@vittoriahotel.eu">
             info@vittoriahotel.eu
           </a>
           <a href="tel:00393293103384">Tel. +39 0365 64 1320</a>
