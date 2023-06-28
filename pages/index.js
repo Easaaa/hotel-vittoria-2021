@@ -21,7 +21,7 @@ export default function IndexPage() {
     <>
       <Seo {...seoAttributes} />
       <Header
-        background='/assets/home/hotel-1.jpg'
+        background='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/hotel-1.jpg?updatedAt=1687974477387'
         {...headerText}
         img_text={t.header.welcome}
       />

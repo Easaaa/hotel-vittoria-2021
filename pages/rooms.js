@@ -84,8 +84,8 @@ export async function getServerSideProps({ query }) {
 
   for (let i = 1; i <= numPhoto; i++) {
     imagesArray.push({
-      original: `/assets/rooms/${queryRoom}/` + i + '.jpg',
-      thumbnail: `/assets/rooms/${queryRoom}/` + i + '.jpg',
+      original: `https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/${queryRoom}/` + i + '.jpg',
+      thumbnail:`https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/${queryRoom}/` + i + '.jpg',
     });
   }
 

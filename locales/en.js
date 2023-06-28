@@ -17,7 +17,7 @@ export default {
     apartments: "Rooms",
     activities: "Activities",
     contact: "Contact",
-    booking: "Booking Now"
+    booking: "Book Now"
   },
   header: {
     welcome: "welcome",
@@ -42,11 +42,11 @@ export default {
         price: "90",
         guest: "From 90 € per day",
         viewMore: "View more",
-        img: "/assets/lake-view.png",
+        img: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/lake-view.jpg?updatedAt=1687974634048",
         videoUrl: "https://www.youtube.com/embed/FCwlLM-Jqic",
         alt: "An internal view of serenity apartment, with a wood table and a big window.",
         othersImages: [
-          { url: "/assets/lake-view.png", alt: "" },
+          { url: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/lake-view.jpg?updatedAt=1687974634048", alt: "" },
           { url: "/assets/rooms/serenity/2.jpeg", alt: "" },
           { url: "/assets/rooms/serenity/3.jpeg", alt: "" },
           { url: "/assets/rooms/serenity/4.jpeg", alt: "" },
@@ -61,11 +61,11 @@ export default {
         price: "85",
         guest: "From 85 € per day",
         viewMore: "View more",
-        img: "/assets/garden-view.jpg",
+        img: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/garden-view.jpg?updatedAt=1687974633785",
         videoUrl: "https://www.youtube.com/embed/lG8iiNx6A2g",
         alt: "An internal view of Armony apartment, with a wood table and a big window.",
         othersImages: [
-          { url: "/assets/garden-view.jpg", alt: "" },
+          { url: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/garden-view.jpg?updatedAt=1687974633785", alt: "" },
           { url: "/assets/rooms/armony/2.jpeg", alt: "" },
           { url: "/assets/rooms/armony/3.jpeg", alt: "" },
           { url: "/assets/rooms/armony/4.jpeg", alt: "" },
@@ -80,11 +80,11 @@ export default {
         price: "85",
         guest: "From 85 € per day",
         viewMore: "View more",
-        img: "/assets/internal-view.jpg",
+        img: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/internal-view.jpg?updatedAt=1687974635478",
         videoUrl: "https://www.youtube.com/embed/Efg7OlrCklY",
         alt: "An internal view of Joy apartment, with a wood table and a big window.",
         othersImages: [
-          { url: "/assets/internal-view.jpg", alt: "" },
+          { url: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/internal-view.jpg?updatedAt=1687974635478", alt: "" },
           { url: "/assets/rooms/joy/2.jpeg", alt: "" },
           { url: "/assets/rooms/joy/3.jpeg", alt: "" },
           { url: "/assets/rooms/joy/4.jpeg", alt: "" },
@@ -177,13 +177,13 @@ export default {
     subTitle: "with special care for details.",
     text: "",
     facility: {
-      img: "/assets/hotel/facility.jpg",
+      img: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/hotel/facility.jpg?updatedAt=1687975046824",
       title: "The facilities",
       text: "The hotel disposes of a private swimming pool for our guests, with two different depths: the first is 1.50 m deep, suitable for adults, and the second is 1 m deep, suitable for children. In the garden you can find sun umbrellas, lawn chairs and tables where you can comfortably eat lunch/dinner in the open air.",
     },
 
     breakfast: {
-      img: "/assets/hotel/terrace.jpg",
+      img: "https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/hotel/terrace.jpg?updatedAt=1687975039983",
       title: "Breakfast",
       text: "Breakfast is served between 08:00 and 10:00. You will find a rich smorgasbord, salty and sweet, with delicious homemade cakes. You can also eat outside in our paradisiac terrace.",
     },

@@ -33,7 +33,7 @@ export default function Activities({ t }) {
             lazy
             alt='A white mountain after snowing and a black dog'
             className='block object-cover object-center w-full h-full'
-            src='/assets/activities/cane.png'
+            src='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/activities/activities/cane.png?updatedAt=1687974872162'
             width={475}
             height={475}
           />
@@ -43,7 +43,7 @@ export default function Activities({ t }) {
             lazy
             alt='the river inside valle camerate valley, near agriturismo'
             className='block object-cover object-center w-full h-full'
-            src='/assets/activities/river.jpg'
+            src='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/activities/activities/river.jpg?updatedAt=1687974878372'
             width={475}
             height={475}
           />
@@ -53,7 +53,7 @@ export default function Activities({ t }) {
             lazy
             alt='The monte pizzoccolo from the Salo village'
             className='block object-cover object-center w-full h-full'
-            src='/assets/activities/pizzoccolo-verticale.jpg'
+            src='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/activities/activities/pizzoccolo-verticale.jpg?updatedAt=1687974883188'
             width={775}
             height={1225}
           />
@@ -65,7 +65,7 @@ export default function Activities({ t }) {
             lazy
             alt='gallery'
             className='block object-cover object-center w-full h-full'
-            src='/assets/activities/pizzoccolo2.png'
+            src='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/activities/activities/pizzoccolo2.png?updatedAt=1687974867316'
             width={875}
             height={675}
           />
@@ -75,7 +75,7 @@ export default function Activities({ t }) {
             lazy
             alt='A lemon plant in Limone del Garda'
             className='block object-cover object-center w-full h-full'
-            src='/assets/activities/limoni.jpg'
+            src='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/activities/activities/limoni.jpg?updatedAt=1687974863646'
             width={475}
             height={475}
           />
@@ -85,7 +85,7 @@ export default function Activities({ t }) {
             lazy
             alt='A selection of mountain cheese on a table'
             className='block object-cover object-center w-full h-full'
-            src='/assets/activities/spritz.jpg'
+            src='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/activities/activities/spritz.jpg?updatedAt=1687974875050'
             width={475}
             height={475}
           />
@@ -95,7 +95,7 @@ export default function Activities({ t }) {
             lazy
             alt='The Toscolano Maderno square with a view of the so called "golfo", a porto with a lot of boats.'
             className='block object-cover object-center w-full h-full'
-            src='/assets/activities/lido.jpg'
+            src='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/activities/activities/lido.jpg?updatedAt=1687974871173'
             width={775}
             height={595}
           />

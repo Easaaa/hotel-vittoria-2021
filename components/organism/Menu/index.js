@@ -154,7 +154,7 @@ export default function Menu({
 
             {/* <!-- Dropdown menu --> */}
             {isDropdownOpen && (
-              <div class="absolute lg:top-8 bottom-5 right-0 lg:right-0 z-20 w-20 p-2 mt-4 border border-gray-200 bg-white hover:bg-gray-50 shadow-xl">
+              <div class="absolute lg:top-8 bottom-5 right-0 lg:right-0 z-20 w-20 p-2 mt-4 border h-12 border-gray-200 bg-white hover:bg-gray-50 shadow-xl">
                 <button
                   onClick={() => {
                     handleChangeLang(oppositeLocale);
@@ -170,7 +170,7 @@ export default function Menu({
         </li>
         <li className="mt-3 lg:mt-0 lg:ml-3">
           <Link href={redirectBookingEngine}>
-            <a className="flex px-4 place-items-center place-content-center w-auto text-lg leading-6 text-white h-12 font-semibold transition-colors duration-200 border border-transparent bg-sky-900 hover:bg-sky-800 focus:outline-none">
+            <a className="flex px-4 place-items-center place-content-center w-auto text-lg leading-6 text-white h-12 transition-colors duration-200 border border-transparent bg-sky-900 hover:bg-sky-800 focus:outline-none">
               {booking}
             </a>
           </Link>

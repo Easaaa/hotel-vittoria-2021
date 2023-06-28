@@ -18,7 +18,7 @@ export default function Hotel() {
   return (
     <>
       <Seo {...seoAttributes} />
-      <Header background='/assets/hotel/swimming-garden.jpg' {...headerText} />
+      <Header background='https://ik.imagekit.io/dcwkdo37k/Hotel_Vittoria/hotel/swimming-garden.jpg?updatedAt=1687975051273' {...headerText} />
 
       {/*  <ImgMosaic /> */}
       {/*  <ImgCentral bgImage={MountainImg} bgSmoke /> */}
