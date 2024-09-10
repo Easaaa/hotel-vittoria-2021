@@ -23,7 +23,7 @@ export default function Hotel() {
       {/*  <ImgMosaic /> */}
       {/*  <ImgCentral bgImage={MountainImg} bgSmoke /> */}
       <ColumnSection data={facility} inverted bgSmoke />
-      <ColumnSection data={breakfast} bgSmoke />
+      {/* <ColumnSection data={breakfast} bgSmoke /> */}
       <Contact t={t} simplified />
       <Footer t={t} />
     </>
